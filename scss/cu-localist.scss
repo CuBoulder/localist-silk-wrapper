@@ -1,7 +1,29 @@
+@mixin element-invisible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .grid_container #menu {
   float:right;
   .profile_icon img {
     width:50px;
     height: auto;
   }
+}
+
+/* Search */
+
+input#top-search {
+  padding:10px;
+  color:#202020;
+  width:100%;
+}
+#top-submit {
+  @include element-invisible;
 }
