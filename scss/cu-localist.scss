@@ -23,6 +23,11 @@ input#top-search {
   padding:10px;
   color:#202020;
   width:100%;
+  background:#fff;
+  .homepage & {
+    padding:20px;
+    font-size:150%;
+  }
 }
 #top-submit {
   @include element-invisible;
