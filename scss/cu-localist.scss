@@ -18,6 +18,13 @@
 }
 
 /* Search */
+.cu-localist-hero {
+  display: flex;
+  flex-direction: row;
+   & > * {
+     flex-grow: 1;
+   }
+}
 
 input#top-search {
   padding:10px;
