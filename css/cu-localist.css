@@ -1,2 +1,2 @@
-.grid_container #menu { float: left; }
+.grid_container #menu { float: right; }
 .grid_container #menu .profile_icon img { width: 50px; height: auto; }
