@@ -3,7 +3,7 @@
 
 /* Search */
 .cu-localist-hero { display: flex; flex-direction: row; }
-.cu-localist-hero > * { flex-grow: 1; }
+.cu-localist-hero > .search_action { flex-grow: 1; margin-right: 40px; }
 
 input#top-search { padding: 10px; color: #202020; width: 100%; background: #fff; }
 .homepage input#top-search { padding: 20px; font-size: 150%; }
