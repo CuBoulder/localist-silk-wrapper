@@ -9,7 +9,7 @@
   border: 0;
 }
 
-.grid_container #menu {
+.cu-localist-login #menu {
   float:right;
   .profile_icon img {
     width:50px;
@@ -25,10 +25,9 @@
   position:relative;
    & > .search_action {
      flex-grow: 1;
-     margin-right: 40px;
    }
    @media screen and (min-width:960px) {
-     & {
+     .homepage & {
        padding: 60px 0;
      }
    }
