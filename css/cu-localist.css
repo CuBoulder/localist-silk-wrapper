@@ -19,3 +19,5 @@ input#top-search { padding: 10px; color: #202020; width: 100%; background: #fff;
 .homepage input#top-search { padding: 20px; font-size: 150%; }
 
 #top-submit { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
+
+.content-wrapper { margin: 0 -15px; }

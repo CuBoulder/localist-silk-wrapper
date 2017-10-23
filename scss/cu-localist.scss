@@ -80,3 +80,7 @@ input#top-search {
 #top-submit {
   @include element-invisible;
 }
+
+.content-wrapper {
+  margin:0 -15px;
+}
