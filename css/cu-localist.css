@@ -1,5 +1,7 @@
 a:hover { text-decoration: none; }
 
+.logo img { max-width: 315px; width: 100px; height: auto; display: block; }
+
 .cu-localist-login #menu { float: right; }
 .cu-localist-login #menu .profile_icon img { width: 50px; height: auto; }
 .cu-localist-login #menu .nav-button .icon-bar { background-color: #858585; }

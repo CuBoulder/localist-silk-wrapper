@@ -11,6 +11,12 @@
 a:hover {
   text-decoration: none;
 }
+.logo img {
+  max-width:315px;
+  width:100px;
+  height: auto;
+  display: block;
+}
 .cu-localist-login #menu {
   float:right;
   .profile_icon img {
