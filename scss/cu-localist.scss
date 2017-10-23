@@ -27,6 +27,11 @@
      flex-grow: 1;
      margin-right: 40px;
    }
+   @media screen and (min-width:960px) {
+     & {
+       padding: 60px 0;
+     }
+   }
 }
 
 input#top-search {
@@ -34,6 +39,7 @@ input#top-search {
   color:#202020;
   width:100%;
   background:#fff;
+  margin:0;
   .homepage & {
     padding:20px;
     font-size:150%;

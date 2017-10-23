@@ -4,8 +4,9 @@
 /* Search */
 .cu-localist-hero { display: flex; flex-direction: row; align-items: center; position: relative; }
 .cu-localist-hero > .search_action { flex-grow: 1; margin-right: 40px; }
+@media screen and (min-width: 960px) { .cu-localist-hero { padding: 60px 0; } }
 
-input#top-search { padding: 10px; color: #202020; width: 100%; background: #fff; }
+input#top-search { padding: 10px; color: #202020; width: 100%; background: #fff; margin: 0; }
 .homepage input#top-search { padding: 20px; font-size: 150%; }
 
 #top-submit { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
