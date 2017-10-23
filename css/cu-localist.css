@@ -1,6 +1,7 @@
 a:hover { text-decoration: none; }
 
-.logo img { max-width: 315px; width: 100px; height: auto; display: block; }
+.logo img { max-width: 480px; width: 100%; height: auto; display: block; }
+@media screen and (min-width: 768px) { .logo img { max-width: 630px; } }
 
 .cu-localist-login #menu { float: right; }
 .cu-localist-login #menu .profile_icon img { width: 50px; height: auto; }

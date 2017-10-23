@@ -12,10 +12,15 @@ a:hover {
   text-decoration: none;
 }
 .logo img {
-  max-width:315px;
-  width:100px;
+  max-width: 480px;
+  width:100%;
   height: auto;
   display: block;
+  @media screen and (min-width:768px) {
+    & {
+      max-width:630px;
+    }
+  }
 }
 .cu-localist-login #menu {
   float:right;
