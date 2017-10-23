@@ -8,7 +8,7 @@ a:hover { text-decoration: none; }
 .cu-localist-login #menu .nav-button .icon-bar { background-color: #858585; }
 .cu-localist-login #menu .action_menu { position: relative; z-index: 5; padding: 0; }
 
-#x-me-menu { display: flex; align-items: center; }
+#x-me-menu { display: flex !important; align-items: center; }
 
 /* Search */
 .cu-localist-hero { display: flex; flex-direction: row; align-items: center; position: relative; }
