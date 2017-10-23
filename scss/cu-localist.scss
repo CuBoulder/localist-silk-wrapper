@@ -8,13 +8,19 @@
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-
+a:hover {
+  text-decoration: none;
+}
 .cu-localist-login #menu {
   float:right;
   .profile_icon img {
     width:50px;
     height: auto;
   }
+}
+#x-me-menu {
+  display: flex;
+  align-items: center;
 }
 
 /* Search */
