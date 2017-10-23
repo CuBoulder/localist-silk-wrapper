@@ -17,6 +17,14 @@ a:hover {
     width:50px;
     height: auto;
   }
+  .nav-button .icon-bar {
+    background-color: #858585;
+  }
+  .action_menu {
+    position: relative;
+    z-index: 5;
+    padding: 0;
+  }
 }
 #x-me-menu {
   display: flex;
