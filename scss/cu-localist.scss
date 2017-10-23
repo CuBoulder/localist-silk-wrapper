@@ -8,6 +8,13 @@
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
+@mixin rgbashadow($x, $y, $blur, $rgb, $transparency) {
+  -webkit-box-shadow: $x $y $blur rgba($rgb, $transparency);
+  -moz-box-shadow:    $x $y $blur rgba($rgb, $transparency);
+  box-shadow:         $x $y $blur rgba($rgb, $transparency);
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -64,6 +71,7 @@ input#top-search {
   width:100%;
   background:#fff;
   margin:0;
+  @include rgbashadow(0, 0, 10px, #000, .25);
   .homepage & {
     padding:20px;
     font-size:150%;
