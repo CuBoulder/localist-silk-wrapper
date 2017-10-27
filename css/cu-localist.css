@@ -24,3 +24,15 @@ input#top-search { padding: 10px; color: #202020; width: 100%; background: #fff;
 .main .content-wrapper { margin: 0 -15px; padding-top: 0; }
 
 .cu-below-content { display: none; }
+
+.main .grid_container { margin-left: -15px; margin-right: -15px; }
+
+.featured-container .featured_item { position: relative; height: 100%; }
+.featured-container .featured_item > a.box_left { width: 50%; height: 100%; overflow: hidden; position: relative; padding: 10px; margin-right: 20px; }
+.featured-container .featured_item > a.box_left img { min-width: 101%; min-height: 101%; position: absolute; top: 50%; left: 50%; width: auto; height: auto; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+
+/* Carousel */
+.featured_carousel .featured_item_wrapper .item > a { padding-right: 0; }
+
+.main .featured_carousel .featured_item_wrapper .item img { margin: 0; }
+@media screen and (max-width: 767px) { .main .featured_carousel .featured_item_wrapper .item > .box_left, .main .featured_carousel .featured_item_wrapper .item-freeform > .box_left { padding-right: 0; } }
