@@ -98,10 +98,13 @@ input#top-search {
   display: none;
 }
 
-.main .grid_container {
-  margin-left:-15px;
-  margin-right:-15px;
+@media screen and (min-width:1200px) {
+  .main .grid_container {
+    margin-left:-15px;
+    margin-right:-15px;
+  }
 }
+
 .featured-container {
   .featured_item {
     position: relative;
