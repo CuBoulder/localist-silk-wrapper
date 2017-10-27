@@ -5,6 +5,7 @@ $(document).ready(function(){
   // spotlight = 0;
   if (spotlight > 0) {
     $('.event-spotlight-component:first').appendTo('.featured-container');
+    console.log('moved first spotlight component to wider region.');
   }
   else if (slider > 0) {
     $('.featured_section_component:first').appendTo('.featured-container');
