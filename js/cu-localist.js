@@ -2,7 +2,7 @@ $(document).ready(function(){
   var spotlight = $('.event-spotlight-component').length;
   var slider = $('.featured_section_component ').length;
   slider = 0;
-  spotlight = 0;
+  // spotlight = 0;
   if (spotlight > 0) {
     $('.event-spotlight-component:first').appendTo('.featured-container');
   }
