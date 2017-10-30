@@ -99,7 +99,7 @@ input#top-search {
 }
 
 @media screen and (min-width:1200px) {
-  .main .grid_container {
+  .main .localist-content-wrapper > .grid_container {
     margin-left:-15px;
     margin-right:-15px;
   }
