@@ -35,3 +35,5 @@ input#top-search { padding: 10px; color: #202020; width: 100%; background: #fff;
 @media screen and (max-width: 767px) { .main .featured_carousel .featured_item_wrapper .item > .box_left, .main .featured_carousel .featured_item_wrapper .item-freeform > .box_left { padding-right: 0; } }
 
 img.img_medium { max-width: 80px; }
+
+@media screen and (max-width: 600px) { .spotlight-photo { height: 180px; } }

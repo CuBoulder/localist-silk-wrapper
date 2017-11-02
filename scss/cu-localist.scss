@@ -154,3 +154,8 @@ input#top-search {
 img.img_medium {
   max-width:80px;
 }
+@media screen and (max-width:600px) {
+  .spotlight-photo {
+    height:180px;
+  }
+}
