@@ -41,3 +41,5 @@ img.img_medium { max-width: 80px; }
 
 @media (min-width: 1500px) { .container { max-width: 1180px; } }
 .ucb-search-link { display: none; }
+
+#breadcrumbs ul { padding: 20px 0; }
