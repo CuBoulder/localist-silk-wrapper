@@ -40,3 +40,4 @@ img.img_medium { max-width: 80px; }
 .container .wrapper { width: auto; max-width: 1140px; }
 
 @media (min-width: 1500px) { .container { max-width: 1180px; } }
+.ucb-search-link { display: none; }
