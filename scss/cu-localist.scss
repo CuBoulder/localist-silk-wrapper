@@ -159,3 +159,13 @@ img.img_medium {
     height:180px;
   }
 }
+
+.container {
+  .wrapper {
+    width:auto;
+    max-width:1140px;
+  }
+}
+@media (min-width: 1500px) {
+  .container { max-width: 1180px; }
+}

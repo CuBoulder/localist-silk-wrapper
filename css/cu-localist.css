@@ -37,3 +37,6 @@ input#top-search { padding: 10px; color: #202020; width: 100%; background: #fff;
 img.img_medium { max-width: 80px; }
 
 @media screen and (max-width: 600px) { .main .event-spotlight-component .spotlight-photo { height: 180px; } }
+.container .wrapper { width: auto; max-width: 1140px; }
+
+@media (min-width: 1500px) { .container { max-width: 1180px; } }
